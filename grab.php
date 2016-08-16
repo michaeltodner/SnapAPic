@@ -5,6 +5,6 @@ if(isset($_FILES['imagedata']['tmp_name']))
     $tf = fopen($newName, 'w');
     fclose($tf);
     move_uploaded_file($_FILES['imagedata']['tmp_name'], $newName);
-    echo 'http://www.starvin-marvin.com/' . $newName;
+    echo 'http://snapapic.net/' . $newName;
 }
 ?>
